@@ -9,8 +9,8 @@ jobs:
       - checkout
 
       - run:
-          name: Install pytest
-          command: pip install pytest
+          name: Install dependencies
+          command: pip install -r requirements-dev.txt
 
       - run:
           name: Run tests
