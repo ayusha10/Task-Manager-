@@ -22,3 +22,5 @@ class TaskManager:
             return "Invalid index"
         self.tasks.pop(index)
         return "Task deleted"
+    
+    print ("Hello")
